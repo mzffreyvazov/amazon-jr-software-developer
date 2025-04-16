@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        // TODO 1: Declare the necessary variables for the car's state and add scanner object
         boolean isOn = false;
         String gear = "P";
         int currentSpeed = 0;
