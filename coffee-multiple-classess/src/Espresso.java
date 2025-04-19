@@ -1,4 +1,4 @@
-public class Espresso extends Coffee{
+public class Espresso extends Coffee {
     private int numberOfShots; // Number of shots of espresso
 
     public Espresso(String name, String roast, double price, int numberOfShots) {
@@ -10,5 +10,10 @@ public class Espresso extends Coffee{
         System.out.println("You ordered " + numberOfShots + " shots of " + name + " with a " + roast + " roast.");
         System.out.println("The total price is: $" + (price * numberOfShots));
 
+    }
+    // Override the grindBeans method to include a message specific to Espresso
+    @Override
+    public void grindBeans() {
+        System.out.println("\nGrinding beans for " + numberOfShots + " shots of " + name + "...");
     }
 }

@@ -1,10 +1,10 @@
 public class Coffee {
 
     // Attributes to store information about the coffee
-    protected String name;                // for example, "Espresso", "Latte", "Mocha"
-    protected String roast;               // for example, "light", "medium", "dark"
-    protected int caffeineLevelInMg;      // calculated based on the roast
-    protected double price;               // in dollars, for example, 2.50
+    String name;                // for example, "Espresso", "Latte", "Mocha"
+    String roast;               // for example, "light", "medium", "dark"
+    int caffeineLevelInMg;      // calculated based on the roast
+    double price;               // in dollars, for example, 2.50
 
     // Constructor to create a new coffee object with the given information
     public Coffee(String name, String roast, double price) {
