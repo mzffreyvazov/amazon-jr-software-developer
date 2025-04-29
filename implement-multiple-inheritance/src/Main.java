@@ -34,18 +34,10 @@ public class Main {
 
             switch (menuChoice) {
                 case 1:
-                    /** TODO 1: Use the "sideKickObject", object of Sidekick class
-                     *          to display the menu and then take the appropriate
-                     *           action as required.
-                     **/
+
                     sideKickObject.setChoice();
                     sideKickObject.takeAction();
 
-                    /** TODO 7: Check if the "SideKick" class has implemented the
-                     *          "KungFuSkills" interface which you created in
-                     *          TODO 5. If it has implemented it, then call the
-                     *          method "kungFuProtection".
-                     **/
                     if (sideKickObject instanceof KungFuSkills) {
                         sideKickObject.kungFuProtection();
                     } else {
@@ -54,10 +46,7 @@ public class Main {
                     break;
                     
                 case 2:
-                    /** TODO 2: Use the "driverBot" object of WatADriver class
-                     *          to display the menu and then take the appropriate
-                     *           action as required.
-                     **/
+
                     driverBot.setChoice();
                     driverBot.takeAction();
                     break;
