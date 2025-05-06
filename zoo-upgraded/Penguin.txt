@@ -1,0 +1,1 @@
+Penguin [isSwimming=true, swimmingSpeed=42, walkingSpeed=11]

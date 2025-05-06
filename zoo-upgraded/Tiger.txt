@@ -1,0 +1,1 @@
+Tiger [numberOfStripes=55, speed=44, soundLevelOfRoar=66]
